@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Figtree", sans-serif;
+}
+
+.blog {
+    width: 384px;
+    height: 522px;
+    border-radius: 20px ;
+    background-color: hsl(0, 0%, 100%);
+    padding: 24px;
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px hsl(0, 0%, 7%);
+}
+
+.blogImg img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.blogText {
+    margin: 16px 0;
+}
+
+.blogText div p {
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.blogText p {
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.blogText h2 {
+    margin-bottom: 12px;
+}
+.blogText h2 a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+}
+
+.blogText h2 a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.blogText p:nth-child(4){
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    line-height: 25px;
+    margin-bottom: 12px;
+}
+
+.blogArthor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.blogArthor img {
+    width: 32px;
+}
+
+.blogArthor p {
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+@media (max-width : 375px){
+    .blog {
+        width: 327px;
+    }
+    
+    .blogText h2 {
+    font-size: 23.5px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
